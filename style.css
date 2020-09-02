@@ -1,0 +1,59 @@
+
+h1{
+    
+    border-color: green;
+}
+
+
+.header{
+    background-color: crimson;
+    border-color: green;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}      
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+p,h2{
+    text-align: center;
+    
+}
+body{
+    background-color: #808080;
+}
+.menu{
+    margin-right: 30px;
+}
+a:link{
+    text-decoration:none;
+    color:black;
+}
+a:visited{
+    color:green;
+}
+.item h3{
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform:translate(-10%,-10%);
+    opacity:0;
+}
+.item:hover h3{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+}
+a:hover{
+    color:blue;
+}
